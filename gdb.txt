@@ -1,0 +1,303 @@
+(gdb) 
+1001^done
+(gdb) 
+1002^done
+(gdb) 
+1003^done
+(gdb) 
+=cmd-param-changed,param="pagination",value="off"
+1004^done
+(gdb) 
+1005^done
+(gdb) 
+1006^done
+(gdb) 
+1007^done
+(gdb) 
+1008^done
+(gdb) 
+1009^done
+(gdb) 
+~"The target architecture is set automatically (currently i386:x86-64)\n"
+1010^done
+(gdb) 
+1011^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00000000000011a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+=thread-group-started,id="i1",pid="11687"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+1012^running
+*running,thread-id="all"
+(gdb) 
+1013^done,threads=[{id="1",target-id="process 11687",name="2-1",state="running",core="5"}]
+(gdb) 
+~"Stopped due to shared library event (no libraries added or removed)\n"
+*stopped,reason="solib-event",thread-id="1",stopped-threads="all",core="5"
+1014^done
+(gdb) 
+1015^done
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+1016^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7dc6630",to="0x00007ffff7f3b20d"}]
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Breakpoint 1, main () at /usrhome/OTF25/c612501907/Class/algorithm/2-1.c:3\n"
+~"3\tint main(void) {\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="1",frame={addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+1017^done,threads=[{id="1",target-id="process 11687",name="2-1",frame={level="0",addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},state="stopped",core="0"}],current-thread-id="1"
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+~"0x00007ffff7dc6630  0x00007ffff7f3b20d  Yes         /lib/x86_64-linux-gnu/libc.so.6\n"
+1018^done
+(gdb) 
+1019^done,stack=[frame={level="0",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"}]
+(gdb) 
+1020^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+~"[Inferior 1 (process 11687) exited normally]\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1",exit-code="0"
+*stopped,reason="exited-normally"
+^exit
+(gdb) 
+1001^done
+(gdb) 
+1002^done
+(gdb) 
+1003^done
+(gdb) 
+=cmd-param-changed,param="pagination",value="off"
+1004^done
+(gdb) 
+1005^done
+(gdb) 
+1006^done
+(gdb) 
+1007^done
+(gdb) 
+1008^done
+(gdb) 
+1009^done
+(gdb) 
+~"The target architecture is set automatically (currently i386:x86-64)\n"
+1010^done
+(gdb) 
+1011^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00000000000011a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+=thread-group-started,id="i1",pid="12119"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+1012^running
+*running,thread-id="all"
+(gdb) 
+1013^done,threads=[{id="1",target-id="process 12119",name="2-1",state="running",core="1"}]
+(gdb) 
+~"Stopped due to shared library event (no libraries added or removed)\n"
+*stopped,reason="solib-event",thread-id="1",stopped-threads="all",core="1"
+1014^done
+(gdb) 
+1015^done
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+1016^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7dc6630",to="0x00007ffff7f3b20d"}]
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Breakpoint 1, main () at /usrhome/OTF25/c612501907/Class/algorithm/2-1.c:3\n"
+~"3\tint main(void) {\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="1",frame={addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="10"
+1017^done,threads=[{id="1",target-id="process 12119",name="2-1",frame={level="0",addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},state="stopped",core="10"}],current-thread-id="1"
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+~"0x00007ffff7dc6630  0x00007ffff7f3b20d  Yes         /lib/x86_64-linux-gnu/libc.so.6\n"
+1018^done
+(gdb) 
+1019^done,stack=[frame={level="0",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"}]
+(gdb) 
+1020^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+~"[Inferior 1 (process 12119) exited normally]\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1",exit-code="0"
+*stopped,reason="exited-normally"
+^exit
+(gdb) 
+1001^done
+(gdb) 
+1002^done
+(gdb) 
+1003^done
+(gdb) 
+=cmd-param-changed,param="pagination",value="off"
+1004^done
+(gdb) 
+1005^done
+(gdb) 
+1006^done
+(gdb) 
+1007^done
+(gdb) 
+1008^done
+(gdb) 
+1009^done
+(gdb) 
+~"The target architecture is set automatically (currently i386:x86-64)\n"
+1010^done
+(gdb) 
+1011^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00000000000011a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+1012^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="0x0000000000001209",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="25",thread-groups=["i1"],times="0",original-location="2-1.c:23"}
+(gdb) 
+1013^done,lines=[{pc="0x00000000000011a9",line="3"},{pc="0x00000000000011b8",line="3"},{pc="0x00000000000011c7",line="11"},{pc="0x00000000000011e2",line="13"},{pc="0x00000000000011ec",line="14"},{pc="0x00000000000011f2",line="14"},{pc="0x00000000000011f6",line="15"},{pc="0x0000000000001209",line="25"},{pc="0x0000000000001224",line="27"},{pc="0x000000000000122e",line="27"},{pc="0x0000000000001233",line="18"},{pc="0x0000000000001248",line="19"},{pc="0x000000000000124f",line="9"},{pc="0x0000000000001254",line="28"},{pc="0x0000000000001263",line="28"},{pc="0x0000000000001269",line="28"},{pc="0x000000000000126d",line="29"},{pc="0x0000000000001289",line="30"},{pc="0x0000000000001290",line="31"},{pc="0x0000000000001299",line="31"},{pc="0x00000000000012a2",line="31"},{pc="0x00000000000012a6",line="32"},{pc="0x00000000000012b2",line="33"},{pc="0x00000000000012b9",line="27"},{pc="0x00000000000012d3",line="37"},{pc="0x00000000000012d8",line="38"}]
+(gdb) 
+=thread-group-started,id="i1",pid="12496"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+=breakpoint-modified,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="0x0000555555555209",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="25",thread-groups=["i1"],times="0",original-location="2-1.c:23"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+1014^running
+*running,thread-id="all"
+(gdb) 
+1015^done,threads=[{id="1",target-id="process 12496",name="2-1",state="running",core="7"}]
+(gdb) 
+~"Stopped due to shared library event (no libraries added or removed)\n"
+*stopped,reason="solib-event",thread-id="1",stopped-threads="all",core="7"
+1016^done,lines=[{pc="0x00005555555551a9",line="3"},{pc="0x00005555555551b8",line="3"},{pc="0x00005555555551c7",line="11"},{pc="0x00005555555551e2",line="13"},{pc="0x00005555555551ec",line="14"},{pc="0x00005555555551f2",line="14"},{pc="0x00005555555551f6",line="15"},{pc="0x0000555555555209",line="25"},{pc="0x0000555555555224",line="27"},{pc="0x000055555555522e",line="27"},{pc="0x0000555555555233",line="18"},{pc="0x0000555555555248",line="19"},{pc="0x000055555555524f",line="9"},{pc="0x0000555555555254",line="28"},{pc="0x0000555555555263",line="28"},{pc="0x0000555555555269",line="28"},{pc="0x000055555555526d",line="29"},{pc="0x0000555555555289",line="30"},{pc="0x0000555555555290",line="31"},{pc="0x0000555555555299",line="31"},{pc="0x00005555555552a2",line="31"},{pc="0x00005555555552a6",line="32"},{pc="0x00005555555552b2",line="33"},{pc="0x00005555555552b9",line="27"},{pc="0x00005555555552d3",line="37"},{pc="0x00005555555552d8",line="38"}]
+(gdb) 
+1017^done
+(gdb) 
+1018^done
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+1019^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7dc6630",to="0x00007ffff7f3b20d"}]
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Breakpoint 1, main () at /usrhome/OTF25/c612501907/Class/algorithm/2-1.c:3\n"
+~"3\tint main(void) {\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="1",frame={addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="7"
+1020^done,threads=[{id="1",target-id="process 12496",name="2-1",frame={level="0",addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},state="stopped",core="7"}],current-thread-id="1"
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+~"0x00007ffff7dc6630  0x00007ffff7f3b20d  Yes         /lib/x86_64-linux-gnu/libc.so.6\n"
+1021^done
+(gdb) 
+1022^done,stack=[frame={level="0",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"}]
+(gdb) 
+1023^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+~"\nProgram"
+~" received signal SIGTRAP, Trace/breakpoint trap.\n"
+~"0x00007ffff7e08d21 in __vfscanf_internal (s=<optimized out>, format=<optimized out>, argptr=argptr@entry=0x7fffffffd710, mode_flags=mode_flags@entry=2) at vfscanf-internal.c:1734\n"
+&"1734\tvfscanf-internal.c: \343\201\235\343\201\256\343\202\210\343\201\206\343\201\252\343\203\225\343\202\241\343\202\244\343\203\253\343\202\204\343\203\207\343\202\243\343\203\254\343\202\257\343\203\210\343\203\252\343\201\257\343\201\202\343\202\212\343\201\276\343\201\233\343\202\223.\n"
+*stopped,reason="signal-received",signal-name="SIGTRAP",signal-meaning="Trace/breakpoint trap",frame={addr="0x00007ffff7e08d21",func="__vfscanf_internal",args=[{name="s",value="<optimized out>"},{name="format",value="<optimized out>"},{name="argptr",value="0x7fffffffd710"},{name="argptr@entry",value="0x7fffffffd710"},{name="mode_flags",value="2"},{name="mode_flags@entry",value="2"}],file="vfscanf-internal.c",fullname="/build/glibc-eX1tMB/glibc-2.31/stdio-common/vfscanf-internal.c",line="1734",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+&"kill\n"
+~"Kill the program being debugged? (y or n) [answered Y; input not from terminal]\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1"
+~"[Inferior 1 (process 12496) killed]\n"
+1024^done
+(gdb) 
+^exit
+(gdb) 
+1001^done
+(gdb) 
+1002^done
+(gdb) 
+1003^done
+(gdb) 
+=cmd-param-changed,param="pagination",value="off"
+1004^done
+(gdb) 
+1005^done
+(gdb) 
+1006^done
+(gdb) 
+1007^done
+(gdb) 
+1008^done
+(gdb) 
+1009^done
+(gdb) 
+~"The target architecture is set automatically (currently i386:x86-64)\n"
+1010^done
+(gdb) 
+1011^done,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00000000000011a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+(gdb) 
+=thread-group-started,id="i1",pid="13071"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="0",original-location="main"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fd0100",to="0x00007ffff7ff2674"}]
+1012^running
+*running,thread-id="all"
+(gdb) 
+1013^done,threads=[{id="1",target-id="process 13071",name="2-1",state="running",core="6"}]
+(gdb) 
+~"Stopped due to shared library event (no libraries added or removed)\n"
+*stopped,reason="solib-event",thread-id="1",stopped-threads="all",core="6"
+1014^done
+(gdb) 
+1015^done
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+1016^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7dc6630",to="0x00007ffff7f3b20d"}]
+=breakpoint-modified,bkpt={number="1",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",thread-groups=["i1"],times="1",original-location="main"}
+~"\n"
+~"Breakpoint 1, main () at /usrhome/OTF25/c612501907/Class/algorithm/2-1.c:3\n"
+~"3\tint main(void) {\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="1",frame={addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="6"
+1017^done,threads=[{id="1",target-id="process 13071",name="2-1",frame={level="0",addr="0x00005555555551a9",func="main",args=[],file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"},state="stopped",core="6"}],current-thread-id="1"
+(gdb) 
+~"From                To                  Syms Read   Shared Object Library\n"
+~"0x00007ffff7fd0100  0x00007ffff7ff2674  Yes         /lib64/ld-linux-x86-64.so.2\n"
+~"0x00007ffff7dc6630  0x00007ffff7f3b20d  Yes         /lib/x86_64-linux-gnu/libc.so.6\n"
+1018^done
+(gdb) 
+1019^done,stack=[frame={level="0",addr="0x00005555555551a9",func="main",file="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",fullname="/usrhome/OTF25/c612501907/Class/algorithm/2-1.c",line="3",arch="i386:x86-64"}]
+(gdb) 
+1020^done
+(gdb) 
+^running
+*running,thread-id="all"
+(gdb) 
+~"[Inferior 1 (process 13071) exited normally]\n"
+=thread-exited,id="1",group-id="i1"
+=thread-group-exited,id="i1",exit-code="0"
+*stopped,reason="exited-normally"
+^exit
